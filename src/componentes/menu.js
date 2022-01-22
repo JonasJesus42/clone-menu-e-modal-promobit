@@ -51,7 +51,6 @@ function Menu(){
            {ModalVisivel ? <Modal onClose={() => setModalVisivel(false)}/> : null}
         </div>
     )
-
 }
 
 export default Menu

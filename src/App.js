@@ -1,25 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
 import Menu from'./componentes/menu'
+import Produtos from './componentes/cardProdutos'
 
 function App() {
   return (
     <div className="App">
       <Menu />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        <div className='conteudo'>
+          <section className='cards-produtos'>
+              <div className='titulo'>
+                <h1>Ofertas em destaque</h1>
+              </div>
+            <div className='cards'>
+              <Produtos descricao='Lavadora de Roupas Midea Storm Wash Inverter 11kg Cesto Inox 16 Programas de Lavagem - LFA11X1'/>
+              <Produtos />
+              <Produtos />
+              <Produtos />
+            </div>
+          </section>
+          <aside>
+
+          </aside>
+        </div>
+      </main>
     </div>
   );
 }

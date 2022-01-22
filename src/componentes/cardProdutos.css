@@ -1,0 +1,136 @@
+.card{
+    width: 224px;
+    max-width: 224px;
+    height: 403px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card h1, h2, h3, h4{
+    margin: 0;
+}
+
+.img-card{
+    padding: 16px 16px 0 16px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.img-card img{
+    margin: 0;
+    padding: 0;
+
+    width: 186px;
+    height: 186px;
+}
+.precos{
+    width: auto;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 16px 0 16px;
+    text-align: start;
+}
+.precos h1{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: #003B7B;
+}
+.precos h3{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #666666;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.valor{
+    display: flex;
+}
+.loja-dias{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.25rem 16px 0.25rem 16px;
+    overflow: hidden;
+    color: #666666;
+}
+.loja-dias h4{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+.descricao{
+    height: 42px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    white-space: pre-wrap;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 16px 0 16px;
+    word-break: break-word;
+    text-align: start;
+}
+
+.bonus{
+    display: flex;
+    margin: 0 16px 0 16px;
+}
+.bonus-conteudo{
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #DDDDDD;
+    color: #323232;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 0.78125rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+.curtidas-comentarios{
+    height: 47px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.curtidas-comentarios-conteudo{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid;
+    justify-content: space-between;
+    border-color: #F4F4F4;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+}
+.comentarios{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg-comentario{
+
+}
+
+.curtidas button{
+    align-items: center;
+    border-width: 0.0125rem;
+    border-radius: 0.25rem;
+    border-style: solid;
+    display: flex;
+    font-weight: 700;
+    padding: 0.25rem;
+    width: fit-content;
+}
+.curtidas p{
+    margin: 0px;
+}
+

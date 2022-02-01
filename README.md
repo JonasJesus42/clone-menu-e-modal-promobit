@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Clone da Home do site Promobi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+ Esse projeto iniciei os estudos em React colocando a mão na massa e aprendendo com forme as nescidades, ciando meus primeiros componentes e utilizando o hook state para atualizar os estados dos componentes levando três dias para o resultado atual, não fiz pensando em fazer a aplicação ser responsivo o foco é entender o react.
+    
+   <a href='https://www.promobit.com.br/'>Site Oficial</a></br>
+   <a href='https://clone-menu-e-modal-promobit.vercel.app//'>Minha aplicação</a>
 
-In the project directory, you can run:
+## Imagens da aplicação 
 
-### `npm start`
+  Home
+[![screen.jpg](https://i.postimg.cc/FzgpGHtg/screen.jpg)](https://postimg.cc/64qCpwpy)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  Modal
+  [![screen2.jpg](https://i.postimg.cc/ZYrwJV9B/screen2.jpg)](https://postimg.cc/fkRcK7fD)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fazendo esse projeto percebi que levei muito tempo codificando o css pensando em nomes me perdendo em meio ao código css e outras coisas pois ainda não conhecia o poder do css no jsx e ainda não chequei a estudar pré processador css, pretendo refazer com os novos conhecimentos de react que adquiri mais rápido e com maior qualidade utilizando css in js e o nextjs. 
